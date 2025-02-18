@@ -1,3 +1,9 @@
 .custom-gradient {
     background: linear-gradient(90deg, #14F195 0%, #80ECFF 40.1%, #64A8F2 82.29%, #64A8F2 100%);
   }
+  .slick-track{
+      position: static !important;
+      display: flex !important;
+      align-items: center !important;
+      padding-top: 6px !important;
+  }

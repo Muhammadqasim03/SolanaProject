@@ -87,7 +87,7 @@ const Community = () => {
           </div>
         </div>
         <div className=" row  pl-5">
-          <div className="grid grid-cols-3 gap-6  lg:grid-cols-2 ">
+          <div className="grid grid-cols-3 gap-6  xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 ">
             <div className=" row  text-white "></div>
             <div className=" h-[309.52px]  space-y-4 ">
               <div className=" flex ">

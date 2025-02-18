@@ -3,10 +3,9 @@ import {Arrowdown , Telegram , Github , Radit , DiscordIcon , Twiter , ChromeIco
 
 const Footer = () => {
   return (
-   
 
     <div
-      className=" h-[424.50px] relative  border border-[#141414]"
+      className=" h-[424.50px] relative  border border-[#141414] 2xl:grid 2xl:grid-cols-4"
       style={{
         background:
           "radial-gradient(50% 50% at 0% 100%, #271D3B 0%, rgba(0, 0, 0, 0) 62.59%), radial-gradient(141.42% 141.42% at 100% 100%, #3A233F 0%, rgba(0, 0, 0, 0) 24.59%), #000508",
@@ -19,28 +18,27 @@ const Footer = () => {
         <img src="/Image/linksolanalogo.png" alt=""></img>
       </div>
       <div data-svg-wrapper className="left-[169.50px] top-[173px] absolute">
-        
+
         <Youtube></Youtube>
       </div>
       <div data-svg-wrapper className="left-[205.50px] top-[173px] absolute">
-       
+
         <Twiter></Twiter>
       </div>
       <div data-svg-wrapper className="left-[241.50px] top-[173px] absolute">
-       
+
         <DiscordIcon></DiscordIcon>
       </div>
       <div data-svg-wrapper className="left-[277.50px] top-[173px] absolute">
-       
-     
+
         <Radit></Radit>
       </div>
       <div data-svg-wrapper className="left-[313.50px] top-[173px] absolute">
-     
+
         <Github></Github>
       </div>
       <div data-svg-wrapper className="left-[349.50px] top-[173px] absolute">
-       
+
         <Telegram></Telegram>
       </div>
       <div className="w-[328.47px] h-[27.30px] left-[169.50px] top-[223.65px] absolute text-[#848895] text-base font-normal font-['Helvetica'] leading-7">
@@ -84,7 +82,7 @@ const Footer = () => {
         </div>
       </div>
       <div data-svg-wrapper className="left-[1200.08px] top-[79.71px] absolute">
-   
+
         <ChromeIcon></ChromeIcon>
       </div>
       <div className="  h-6 left-[1223.45px] top-[77.71px] absolute text-center text-[#848895] text-base font-normal font-['Helvetica'] uppercase leading-normal">
@@ -98,3 +96,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

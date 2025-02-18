@@ -14,15 +14,15 @@ const Card = () => {
         ></img>
         </div>
 
-        <div className=" flex flex-col items-center   gap-4  xl:w-1/2 lg:w-full   ">
+        <div className=" flex flex-col items-center   gap-4  xl:w-1/2 lg:w-full md:pt-10   ">
           <button className="flex w-[161.09px] h-[26.16px] pt-[2.92px] pr-[9.79px] pb-[3.08px] pl-[10px] justify-center items-center flex-shrink-0 rounded-[15px] custom-gradient text-[13.837px] font-normal leading-[20.16px] uppercase ">
             Token Extensions
           </button>
-          <h1 className=" flex flex-col justify-center shrink-0 w-[355.86px] h-[99.12px] text-[#CCC] text-center  text-[27.344px] font-normal leading-[33.04px] tracking-[-0.68px]">
+          <h1 className=" flex flex-col justify-center shrink-0  sm:text-[18px] xl:w-[355.86px] lg:w-full  h-[99.12px] text-[#CCC] text-center  xl:text-[27.344px] font-normal leading-[33.04px] tracking-[-0.68px]">
             Coindesk: Token Extensions Update to SPL Token Program Live After
             Year in Development
           </h1>
-          <p className="flex flex-col justify-center w-[477.78px] h-[73.92px] flex-shrink-0 text-[#CCC] text-center font-helvetica text-[17.325px] font-normal leading-[24.64px]">
+          <p className="flex flex-col justify-center sm:text-[12px] 2xl:w-[477.78px] lg:w-full  h-[73.92px] flex-shrink-0 text-[#CCC] text-center font-helvetica xl:text-[17.325px] font-normal leading-[24.64px]">
             Token extensions let developers hard code restrictions in their
             digital assets, enhancing compliance controls for businesses
             building on Solana.

@@ -16,6 +16,9 @@ module.exports = {
 
 
       },
+      screen:{
+         "2xl": "1536px"
+      },
       fontFamily: {
        fontsFamily: ['Helvetica', 'Arial', 'sans-serif'], // Add Helvetica here
       },

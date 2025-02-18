@@ -143,7 +143,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-black   h-[67.3px] px-6 lg:px-[149.5px] py-[20px] flex justify-between items-center">
+    <nav className="bg-black   h-[67.3px] px-6 lg:px-[149.5px] py-[20px] flex justify-between items-center fixed w-full">
       <img src={logo} alt="Logo" className="h-8" />
 
   
@@ -215,9 +215,9 @@ const Navbar = () => {
       {item}
     </button>
     <div className="overflow-hidden mt-2">
-      <ul className="pl-4 space-y-2 py-2 bg-white rounded-md shadow-md">
+      <ul className="pl-4 space-y-2 py-2 bg-white rounded-md shadow-md  ">
         {['Option 1', 'Option 2', 'Option 3'].map((option) => (
-          <li key={option} className="hover:bg-[#6b9d73dc] rounded-md px-4 py-2">
+          <li key={option} className="hover:bg-[#6b9d73dc] rounded-md px-4 py-2 ">
             <a href=" " onClick={(e) => e.preventDefault()}>{option}</a>
           </li>
         ))}

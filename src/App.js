@@ -19,7 +19,7 @@ function App() {
       <CaseStudies></CaseStudies>
       <BuildGrowth></BuildGrowth>
       <JoinCommunity></JoinCommunity>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }

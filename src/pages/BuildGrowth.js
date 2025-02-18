@@ -2,9 +2,9 @@
   import {ShopifyLogo ,LogoAsics , Helio , } from "../reuseable/Icon"
  const BuildGrowth = () => {
    return (
-    <div className=" bg-black  border-2 border-blue-400 w-full   pt-[125px] pr-[149.5px] pb-[124.52px] pl-[149.5px]   overflow-hidden ">
-    <div className=" border-2 border-green-400  relative flex-col  justify-start items-start flex">
-       <div className='  border-2   flex justify-between w-full '>
+    <div className=" bg-black  w-full   pt-[125px] pr-[149.5px] pb-[124.52px] pl-[149.5px]   overflow-hidden ">
+    <div className="  relative flex-col  justify-start items-start flex">
+       <div className='     flex justify-between w-full '>
        <div className="  text-white text-[39.21px] font-bold font-['Helvetica'] leading-[46.20px]">
         Build for growth.
        </div>
@@ -35,11 +35,11 @@
        </div>
         </div>.
      
-    <div className=" bg-[#1a1a1a] rounded-xl    flex  w-full border-2  overflow-hidden">
-    <div  className="relative w-1/2 h-full  flex shrink-0   ">
+    <div className=" bg-[#1a1a1a] rounded-xl    flex  w-full    overflow-hidden">
+    <div  className="relative xl:w-1/2 lg:w-full  h-full  flex shrink-0 border-2   ">
       <img src='/Image/ShopyfyImage.png' alt='' className='  w-full h-full object-cover  '></img>
     </div>
-    <div className=" border-green-500  w-1/2  relative gap-6    p-[64px] overflow-hidden flex flex-col border-2">
+    <div className="   xl:w-1/2 lg:w-1/2   relative gap-6    p-[64px] overflow-hidden flex flex-col ">
         <div  className=' flex items-center  h-[50px]  shrink-0'>
          <ShopifyLogo></ShopifyLogo>
         </div>
